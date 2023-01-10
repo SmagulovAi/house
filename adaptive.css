@@ -1,14 +1,17 @@
 @media (max-width: 576px) {
     .wrapper {
-        width: calc(100%-30px);
+        width: calc(100%);
     }
     .wrapper1 {
-        width: calc(100%-30px);
+        width: calc(100%);
     }
     body {
-        width: 576px;
+        max-width: 576px;
         display: block;
         background-position: center center;
+    }
+    .block1 {
+        background-image: 100%;
     }
     .header {
         display: none;
@@ -20,27 +23,53 @@
         font-size: 28px;
     }
     img {
-        background-position: center center;
+        background-position: center;
+        width: 100%;
     }
 }
 
 /* Шапка */
 
 @media (max-width: 576px) {
-    .header {
-        display: none;
-    }
-    img {
-        max-width: 100%;
+    .first {
+        max-width: 576px;
     }
 }
 
-/* Первый блок */
+/* блокi */
 @media (max-width: 576px) {
-    body {
-        width: 576px;
+    .block1 {
+        width: 100%;
     }
     p {
-        font-size: 7px;
+        font-size: 10px;
+    }
+    .mini_img {
+        width: 25%;
+    }
+    .logotype, .mouse {
+        width: 25%;
+        margin: 0 auto;
+    }
+    .trio {
+        display: block;
+        
+    }
+}
+
+/* Подвал */
+@media (max-width: 576px) {
+    .footer {
+        display: block;
+        text-align: center;
+        float: none;
+        
+    }
+    .pages {
+        width: 100%;
+    }
+    .sait_info {
+        width: 100%;
+        margin-top: 200px;
     }
 }
