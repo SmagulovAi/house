@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+}
+p {
+    color: #52503B;
+}
+span {
+    font-size: 32px;
+    color: #52503B;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 70px;
+    background-color: #52503B;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+}
+.menu {
+    padding: 20px;
+}
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.menu ul {
+    display: inline;
+    list-style: none;
+    width: 260px;
+    padding-left: 360px;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 24px;
+}
+.btn {
+    position: relative;
+    float: right;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 11px 18px;
+    background-color: white;
+    top: -8px;
+    text-decoration: none;
+    color: #52503B;
+}
+.block1 {
+    width: 1440px;
+    height: 800px;
+    background-image: url(/img/bir.png);
+    z-index: -1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    top: -70px;
+}
+.first_block {
+    height: 305px;
+    text-align: center;
+}
+.logotype {
+    margin-bottom: 35px;
+}
+.modern p {
+    font-size: 48px;
+    color: white;
+}
+.textblock span {
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+}
+.mouse {
+    padding-top: 113px;
+}
+.block2 {
+    height: 410px;
+}
+.wrapper1 {
+    width: 800px;
+    margin: 0 auto;
+}
+.orange {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+    margin: 0 auto;
+}
+.two_blocks {
+    margin-top: 32px;
+    background-color: #FAF8F0;
+}
+.container {
+    width: 50%;
+    float: left;
+    background-color: #FAF8F0;
+}
+.container1 {
+    width: 50%;
+    float: right;
+    background-color: #FAF8F0;
+}
+.btn_one {
+    position: relative;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 11px 18px;
+    background-color: #52503B;
+    top: 41px;
+    text-decoration: none;
+    color: white;
+}
+.block3 {
+    height: 568px;
+}
+.big_text {
+    font-size: 96px;
+    text-align: center;
+    margin-top: 20px;
+    color: #52503B;
+}
+.photo {
+    margin-bottom: 100px;
+}
+.sleeping {
+    height: 330px;
+    margin-top: 100px;
+}
+.container2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+.trio {
+    width: 1168px;
+    height: 140px;
+    text-align: center;
+}
+.beds {
+    float: left;
+    margin-right: 64px;
+}
+.bedrooms {
+    float: left;
+    margin-right: 64px;
+}
+.bathrooms {
+    float: left;
+}
+.contact {
+    height: 478px;
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #FAF8F0;
+}
+.two_btn {
+    width: 202px;
+    margin: 0 auto;
+}
+.btn1 {
+    position: relative;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 11px 15px;
+    background-color: white;
+    text-decoration: none;
+    color: #52503B;
+}
+.btn2 {
+    position: relative;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 12px 15px;
+    background-color: #52503B;
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    height: 608px;
+    background-color: #52503B;
+    padding-top: 100px;
+}
+.foot_menu {
+    margin-bottom: 88px;
+}
+.footer p {
+    color: white;
+}
+.pages {
+    float: left;
+    margin-right: 210px;
+}
+.pages ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    color: white;
+}
+.social {
+    float: left;
+    margin-right: 160px;
+}
+.email {
+    height: 120px;
+    min-height: 20px;
+}
+.mail {
+    border-radius: 7px;
+    padding: 11px 120px;
+}
+.submit {
+    border-radius: 7px;
+    padding: 11px 14px;
+}
+.sait_info {
+    text-align: center;
+}

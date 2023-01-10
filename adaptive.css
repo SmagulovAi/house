@@ -1,0 +1,46 @@
+@media (max-width: 576px) {
+    .wrapper {
+        width: calc(100%-30px);
+    }
+    .wrapper1 {
+        width: calc(100%-30px);
+    }
+    body {
+        width: 576px;
+        display: block;
+        background-position: center center;
+    }
+    .header {
+        display: none;
+    }
+    p, span {
+        font-size: 10px;
+    }
+    b {
+        font-size: 28px;
+    }
+    img {
+        background-position: center center;
+    }
+}
+
+/* Шапка */
+
+@media (max-width: 576px) {
+    .header {
+        display: none;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+/* Первый блок */
+@media (max-width: 576px) {
+    body {
+        width: 576px;
+    }
+    p {
+        font-size: 7px;
+    }
+}
